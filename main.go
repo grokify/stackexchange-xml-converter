@@ -4,7 +4,7 @@ import (
 	"flag"
 	"log"
 
-	"github.com/SkobelevIgor/stackexchange-xml-converter/converter"
+	"github.com/grokify/stackexchange-xml-converter/converter"
 )
 
 func main() {

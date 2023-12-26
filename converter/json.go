@@ -7,7 +7,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/SkobelevIgor/stackexchange-xml-converter/encoders"
+	"github.com/grokify/stackexchange-xml-converter/encoders"
 )
 
 // WriteBufferSize bytes (8MB)

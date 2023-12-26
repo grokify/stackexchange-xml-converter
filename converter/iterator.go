@@ -4,7 +4,7 @@ import (
 	"encoding/xml"
 	"os"
 
-	"github.com/SkobelevIgor/stackexchange-xml-converter/encoders"
+	"github.com/grokify/stackexchange-xml-converter/encoders"
 )
 
 // XMLIterator struct

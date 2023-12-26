@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/SkobelevIgor/stackexchange-xml-converter/encoders"
+	"github.com/grokify/stackexchange-xml-converter/encoders"
 )
 
 func convertToCSV(typeName string, xmlFile *os.File, csvFile *os.File, cfg Config) (total int64, converted int64, err error) {
