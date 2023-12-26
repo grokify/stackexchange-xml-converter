@@ -1,5 +1,10 @@
 # stackexchange-xml-converter
 
+[![Build Status][build-status-svg]][build-status-url]
+[![Go Report Card][goreport-svg]][goreport-url]
+[![Docs][docs-godoc-svg]][docs-godoc-url]
+[![License][license-svg]][license-url]
+
 CLI tool that allows you to convert [Stack Exchange data dumps](https://archive.org/download/stackexchange) from `XML` to `CSV` or `JSON` formats, which is more suitable for importing to the different databases.
 
 Table of contents
@@ -84,3 +89,16 @@ License
 =======
 
 [MIT License](./LICENSE)
+
+ [used-by-svg]: https://sourcegraph.com/github.com/grokify/stackexchange-xml-converter/-/badge.svg
+ [used-by-url]: https://sourcegraph.com/github.com/grokify/stackexchange-xml-converter?badge
+ [build-status-svg]: https://github.com/grokify/stackexchange-xml-converter/workflows/test/badge.svg
+ [build-status-url]: https://github.com/grokify/stackexchange-xml-converter/actions/workflows/test.yaml
+ [goreport-svg]: https://goreportcard.com/badge/github.com/grokify/stackexchange-xml-converter
+ [goreport-url]: https://goreportcard.com/report/github.com/grokify/stackexchange-xml-converter
+ [docs-godoc-svg]: https://pkg.go.dev/badge/github.com/grokify/stackexchange-xml-converter
+ [docs-godoc-url]: https://pkg.go.dev/github.com/grokify/stackexchange-xml-converter
+ [loc-svg]: https://tokei.rs/b1/github/grokify/stackexchange-xml-converter
+ [repo-url]: https://github.com/grokify/stackexchange-xml-converter
+ [license-svg]: https://img.shields.io/badge/license-MIT-blue.svg
+ [license-url]: https://github.com/grokify/stackexchange-xml-converter/blob/master/LICENSE
